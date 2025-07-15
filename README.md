@@ -53,8 +53,6 @@ Download the datasets from the provided [link](https://drive.google.com/file/d/1
 - Required libraries (for pandas and polars scripts):  
   ```bash
   pip install pandas polars matplotlib seaborn
-
-
 ```
 
 ```
@@ -65,16 +63,14 @@ Download the datasets from the provided [link](https://drive.google.com/file/d/1
    python pure_python_stats.py <dataset.csv>
    python pandas_stats.py <dataset.csv>
    python polars_stats.py <dataset.csv>
- ```
 
+```
 Example:
 Replace <dataset.csv> with the path to the dataset file you want to analyze.
 
   ```bash
     python pandas_stats.py 2024_fb_ads_president_scored_anon.csv
 
-
-```
 
 
 ```
