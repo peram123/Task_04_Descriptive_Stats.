@@ -53,9 +53,7 @@ Download the datasets from the provided [link](https://drive.google.com/file/d/1
 - Required libraries (for pandas and polars scripts):  
   ```bash
   pip install pandas polars matplotlib seaborn
-```
-
-```
+---
 ## Running the Scripts
  From your terminal or command prompt, navigate to the project directory and execute:
  
@@ -70,8 +68,6 @@ Replace <dataset.csv> with the path to the dataset file you want to analyze.
 
   ```bash
     python pandas_stats.py 2024_fb_ads_president_scored_anon.csv
-
-
 
 ```
 ## Summary Statistics Output
